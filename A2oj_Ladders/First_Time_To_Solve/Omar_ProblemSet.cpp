@@ -36,10 +36,10 @@ using namespace std;
 int n, b, c, sum;
 int main(){
     cin >> n;
-    for(int i=0; i < n; i++){
+    for(int i = 0; i < n; i++){
         cin >> b;
         cin >> c;
-        sum =b+c;
-        cout << sum<<endl;
+        sum = b+c;
+        cout << sum <<endl;
     }
 }
