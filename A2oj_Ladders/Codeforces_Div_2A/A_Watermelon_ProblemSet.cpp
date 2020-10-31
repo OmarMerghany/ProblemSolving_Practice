@@ -26,7 +26,7 @@ Note: For example, the boys can divide the watermelon into two parts of 2 and 6 
  */
 
 
-//  The explanations here is:
+//  The explanation here is:
 //      every odd number can NOT be divided into two even parts --> odd - even = odd
 //      every even number can be divided into two even parts --> even - odd = even
 //      Edge case is: 2 as it can NOT be divided into two even parts, 1 is odd number, and can not
