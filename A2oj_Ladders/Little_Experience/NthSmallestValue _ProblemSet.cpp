@@ -48,10 +48,8 @@ int main()
             }
         }
 
-        // for(int j=0; j<10; j++){
         cout<< arr[1]<<endl;
 
-        //}
     }
 }
 
