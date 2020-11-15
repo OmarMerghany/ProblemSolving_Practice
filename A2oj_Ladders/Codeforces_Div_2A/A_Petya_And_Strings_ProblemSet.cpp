@@ -34,7 +34,6 @@ http://en.wikipedia.org/wiki/Lexicographical_order
 
 #include <iostream>
 #include<bits/stdc++.h>
-
 using namespace std;
 
 int main() {
