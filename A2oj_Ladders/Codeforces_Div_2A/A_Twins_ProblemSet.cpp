@@ -41,7 +41,9 @@ int main() {
      * get the sum of the total input while reading the input
      * sort the array, using C++ STL sort with complexity of worst case [nlog(n)]
      * iterate through the sroted array and compare the sum of remainder after picking
-     * the biggest coins till reaching the first the remaining will be less than the coins selected
+     * the biggest coins till reaching the first coin which after that coin
+     * the remaining will be less than the coins selected
+     * ** when the sum of selected > sum of reminder break and return the number of coins
      * ***** Corner cases handled separately *****
      *          1. single coin --> pick it all
      *          2. 2 coins with equal values --> pick them all
