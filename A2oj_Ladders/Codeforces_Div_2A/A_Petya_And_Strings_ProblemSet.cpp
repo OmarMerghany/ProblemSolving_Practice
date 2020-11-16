@@ -37,26 +37,25 @@ http://en.wikipedia.org/wiki/Lexicographical_order
 
 using namespace std;
 
-//int main() {
-//    string input1, input2;
-//    getline(cin, input1);
-//    getline(cin, input2);
-//    int input1_length;
-//    int sum1, sum2;
-//    input1_length = input1.size();
-//    for (int i = 0; i < input1_length; i++) {
-//        sum1 = 0, sum2 = 0;
-//        sum1 = int(towlower(input1[i]));
-//        sum2 = int(towlower(input2[i]));
-//        if (sum1 > sum2) {
-//            cout << 1 << endl;
-//            return 0;
-//        } else if (sum1 < sum2) {
-//            cout << -1 << endl;
-//            return 0;
-//        }
-//    }
-//    cout << 0 << endl;
-//    return 0;
-//}
-
+int main() {
+    string input1, input2;
+    getline(cin, input1);
+    getline(cin, input2);
+    int input1_length;
+    int sum1, sum2;
+    input1_length = input1.size();
+    for (int i = 0; i < input1_length; i++) {
+        sum1 = 0, sum2 = 0;
+        sum1 = int(towlower(input1[i]));
+        sum2 = int(towlower(input2[i]));
+        if (sum1 > sum2) {
+            cout << 1 << endl;
+            return 0;
+        } else if (sum1 < sum2) {
+            cout << -1 << endl;
+            return 0;
+        }
+    }
+    cout << 0 << endl;
+    return 0;
+}

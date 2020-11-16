@@ -28,7 +28,6 @@ int main() {
     int input1_length;
     input1_length = input.size();
     string word = "hello";
-
     int a = 0, count = 0;
     for (int i = 0; i < input1_length; i++) {
         if (input[i] == word[a]) {
