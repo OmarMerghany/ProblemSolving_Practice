@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Learning/ProblemSolving_Practice/A2oj_Ladders/Codeforces_Div_2A/A_Petya_And_Strings_ProblemSet.cpp
+iostream
+-
+bits/stdc++.h
+-
+
