@@ -1,4 +1,4 @@
-"""
+/*
 You've got a 5 × 5 matrix, consisting of 24 zeroes and a single number one. Let's index the matrix rows by numbers from 1 to 5 from top to bottom, let's index the matrix columns by numbers from 1 to 5 from left to right. In one move, you are allowed to apply one of the two following transformations to the matrix:
 
 Swap two neighboring matrix rows, that is, rows with indexes i and i + 1 for some integer i (1 ≤ i < 5).
@@ -29,14 +29,27 @@ input
 output
 1
 
-"""
-# https://codeforces.com/problemset/problem/263/A
+*/
+// https://codeforces.com/problemset/problem/263/A
 
-l = []
-for i in range(5):
-    lt = list(map(int, input().split(" ")))
-    l.append(lt)
-for i in range(0, 5):
-    for j in range(0, 5):
-        if (l[i][j] == 1):
-            print(abs(i - 3) + abs(j - 3))
+#include <iostream>
+#include <cmath>
+ 
+using namespace std;
+ 
+int main()
+{
+    int x = 0;
+    for (int i = 1; i <= 5; ++i)
+    {
+        for (int j = 1; j <= 5; ++j)
+        {
+            cin >> x;
+            if (x == 1)
+            {
+                cout << abs(i - 3) + abs(j - 3) << endl;
+            }
+        }
+    }
+    return 0;
+}
