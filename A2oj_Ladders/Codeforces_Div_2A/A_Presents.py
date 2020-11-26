@@ -1,5 +1,5 @@
 n = int(input())
-lst = list(map(int, input().split(" ")))
+lst = list(map(int,input().split(" ")))
 output = [0]*n
 for i in range(0,n):
     q = lst[i]
