@@ -39,4 +39,4 @@ for i in range(5):
 for i in range(0, 5):
     for j in range(0, 5):
         if (l[i][j] == 1):
-            print(abs(i - 3) + abs(j - 3))
+            print(abs(i - 2) + abs(j - 2))
